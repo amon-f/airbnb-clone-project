@@ -288,6 +288,27 @@ This ensures that even if the database is compromised, user credentials remain p
 - **Securing Transactions:** Safe payment handling protects both hosts and guests from financial loss or fraud.
 - **Maintaining Platform Integrity:** Preventing abuse, fraud, and attacks ensures a stable, reliable, and fair service for all users.
 
+## ⚙️ CI/CD Pipeline
+
+**Continuous Integration (CI)** and **Continuous Deployment (CD)** pipelines are automated workflows that streamline the process of building, testing, and deploying code changes.  
+With CI/CD, every code change pushed to the repository is automatically tested and, if it passes, deployed to the staging or production environment.
+
+---
+
+### **Why CI/CD is Important**
+- **Early Bug Detection:** Automated testing ensures that bugs are caught early in the development cycle, improving code quality.
+- **Faster Delivery:** Automating the build and deployment process reduces manual work and speeds up feature releases.
+- **Consistent Deployments:** CI/CD guarantees that the same process is followed every time, reducing the risk of human errors during deployment.
+- **Team Collaboration:** Enables multiple developers to work together efficiently by integrating their changes smoothly.
+
+---
+
+### **Tools Used**
+- **GitHub Actions:** Automates tasks like testing, linting, and deployment directly from the GitHub repository.
+- **Docker:** Ensures consistent build environments by containerizing the application and its dependencies.
+- **Celery + Redis (Optional):** Can be integrated to handle asynchronous tasks in the pipeline (e.g., background jobs).
+- **Cloud Platforms (e.g., AWS, Heroku, DigitalOcean):** For hosting and deploying the final application.
+
 
 
 ## Setup
