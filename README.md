@@ -24,12 +24,27 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 - **Data Optimization**:  
   Ensure efficient data retrieval and storage through database optimizations.
 
-## Tech Stack
+## 🛠️ Technology Stack
 
-- **Front-End**: HTML, CSS, JavaScript
-- **Back-End**: Python (Flask or Django)
-- **Database**: MySQL
-- **Version Control**: Git & GitHub
+- **Django**  
+  A high-level Python web framework used to build robust and scalable web applications. In this project, Django handles the backend logic, provides a structured framework for building RESTful APIs, and manages user authentication, routing, and middleware.
+
+- **PostgreSQL**  
+  A powerful open-source relational database system used for storing and managing structured data like users, property listings, bookings, and reviews. PostgreSQL offers strong data integrity, advanced querying, and scalability.
+
+- **GraphQL**  
+  A query language and runtime for APIs that allows clients to request exactly the data they need. In this project, GraphQL can enhance API flexibility and efficiency, reducing the number of requests compared to traditional REST endpoints.
+
+- **Docker**  
+  A containerization platform that packages the application and its dependencies into portable containers. Docker ensures consistency across development, testing, and production environments.
+
+- **Nginx**  
+  A high-performance web server and reverse proxy used to serve static files, handle load balancing, and improve application performance.
+
+- **Git & GitHub**  
+  Git is a version control system that tracks code changes, while GitHub hosts the code repository, enabling collaboration, issue tracking, and version management.
+
+
 
 ## 👥 Team Roles
 
