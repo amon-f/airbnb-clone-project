@@ -241,6 +241,53 @@ This feature helps maintain trust and transparency within the platform.
 Indexing and caching strategies are implemented to ensure fast retrieval of frequently accessed data and reduce server load.  
 Technologies like Redis are used for caching, and database indexes speed up query performance, ensuring scalability.
 
+## 🔒 API Security
+
+Securing the backend APIs is critical to ensure the safety, privacy, and trustworthiness of the Airbnb Clone platform. Below are the key security measures and why they are essential.
+
+---
+
+### **1️⃣ Authentication**
+We will implement secure user authentication using JWT (JSON Web Tokens) or OAuth2 protocols.  
+This ensures that only verified users can access protected endpoints, preventing unauthorized access to sensitive resources like user profiles, bookings, and payments.
+
+---
+
+### **2️⃣ Authorization**
+Role-based access control (RBAC) will be used to define permissions for guests, hosts, and admins.  
+This guarantees that users can only perform actions they are authorized for, such as preventing guests from modifying other users’ listings or bookings.
+
+---
+
+### **3️⃣ Rate Limiting**
+We will apply rate limiting to API endpoints to prevent abuse, such as brute-force attacks or denial-of-service (DoS) attempts.  
+By limiting the number of requests per user/IP, we protect the platform’s stability and ensure fair usage.
+
+---
+
+### **4️⃣ Data Validation and Sanitization**
+All incoming data will be validated and sanitized to prevent common attacks like SQL injection, XSS (Cross-Site Scripting), and request forgery.  
+This helps maintain data integrity and protect both users and the system from malicious input.
+
+---
+
+### **5️⃣ Secure Payments**
+Payment processing will be integrated with trusted third-party providers (e.g., Stripe, PayPal) using encrypted communication (HTTPS, SSL/TLS).  
+This ensures that sensitive financial data is never stored directly on the platform, reducing the risk of data breaches.
+
+---
+
+### **6️⃣ Encryption**
+Sensitive data, such as passwords, will be stored using strong hashing algorithms (e.g., bcrypt).  
+This ensures that even if the database is compromised, user credentials remain protected.
+
+---
+
+### **Why Security Matters**
+- **Protecting User Data:** Preventing unauthorized access to personal information builds user trust and ensures compliance with privacy regulations.
+- **Securing Transactions:** Safe payment handling protects both hosts and guests from financial loss or fraud.
+- **Maintaining Platform Integrity:** Preventing abuse, fraud, and attacks ensures a stable, reliable, and fair service for all users.
+
 
 
 ## Setup
