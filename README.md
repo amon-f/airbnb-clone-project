@@ -190,6 +190,57 @@ This project’s database is structured to efficiently manage users, properties,
     - `property_id` in Property and Booking tables.
     - `booking_id` in Booking and Payment tables.
 
+## 🚀 Feature Breakdown
+
+This project includes a comprehensive set of features designed to mimic the core functionalities of Airbnb and ensure a smooth user and host experience.
+
+---
+
+### **1️⃣ API Documentation**
+The backend APIs are documented using the OpenAPI standard, ensuring clarity, consistency, and ease of integration for frontend and third-party developers.  
+It uses Django REST Framework to provide a robust RESTful API for CRUD operations and incorporates GraphQL for flexible, efficient data querying.
+
+---
+
+### **2️⃣ User Authentication**
+Endpoints: `/users/`, `/users/{user_id}/`  
+This feature allows users to register, authenticate, and manage their profiles securely.  
+It ensures that only authorized users can access or modify sensitive data.
+
+---
+
+### **3️⃣ Property Management**
+Endpoints: `/properties/`, `/properties/{property_id}/`  
+Hosts can create, update, retrieve, and delete property listings, including details like descriptions, pricing, and availability.  
+This empowers hosts to manage their offerings and keep listings up to date.
+
+---
+
+### **4️⃣ Booking System**
+Endpoints: `/bookings/`, `/bookings/{booking_id}/`  
+Users can make, update, and manage bookings, including specifying check-in and check-out details.  
+This system handles reservation conflicts, date validations, and booking confirmations.
+
+---
+
+### **5️⃣ Payment Processing**
+Endpoints: `/payments/`  
+The platform integrates secure payment handling for transactions related to bookings.  
+It supports multiple payment methods and ensures that payments are properly tracked and recorded.
+
+---
+
+### **6️⃣ Review System**
+Endpoints: `/reviews/`, `/reviews/{review_id}/`  
+Guests can leave reviews and ratings for properties they’ve stayed at, while hosts can respond to feedback.  
+This feature helps maintain trust and transparency within the platform.
+
+---
+
+### **7️⃣ Database Optimizations**
+Indexing and caching strategies are implemented to ensure fast retrieval of frequently accessed data and reduce server load.  
+Technologies like Redis are used for caching, and database indexes speed up query performance, ensuring scalability.
+
 
 
 ## Setup
